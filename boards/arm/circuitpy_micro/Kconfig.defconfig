@@ -1,0 +1,7 @@
+# Southpaw Design Circuitfpy Micro board configuration 
+# Copyright (c) 2021 Pete Johanson
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD
+	default "circuitpy_micro"
+	depends on BOARD_CIRCUITPY_MICRO

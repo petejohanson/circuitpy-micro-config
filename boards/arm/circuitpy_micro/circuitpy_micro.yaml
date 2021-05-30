@@ -1,0 +1,19 @@
+identifier: circuitpy_micro
+name: Southpaw Design CircuitPy Micro
+type: mcu
+arch: arm
+ram: 32
+flash: 256
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - dma
+  - gpio
+  - hwinfo
+  - pinmux
+  - spi
+  - uart
+  - usb_device
+  - watchdog
